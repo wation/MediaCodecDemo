@@ -15,7 +15,7 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
 public class DecodeActivity extends Activity implements SurfaceHolder.Callback {
-	private static final String SAMPLE = Environment.getExternalStorageDirectory() + "/video.mp4";
+	private static final String SAMPLE = Environment.getExternalStorageDirectory() + "/pointFile/123.mp4";
 	private PlayerThread mPlayer = null;
 
 	@Override
